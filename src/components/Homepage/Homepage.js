@@ -34,10 +34,10 @@ const Homepage = () => {
             <div className="flex flex-wrap items-center">
               <div className="w-full lg:w-1/2 mb-20 lg:mb-0">
                 <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-white bg-green-500 font-medium uppercase rounded-9xl">
-                  Blogify
+                  MOVIEFIED
                 </span>
                 <h1 className="mb-6 text-3xl md:text-5xl lg:text-6xl leading-tight text-coolGray-900 font-bold tracking-tight">
-                  Explore the Future with Blogify
+                  Explore Your Opinions With Moviefied
                 </h1>
                 <p className="mb-8 text-lg md:text-xl leading-7 text-coolGray-500 font-medium"></p>
                 <ul>
@@ -47,7 +47,7 @@ const Homepage = () => {
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDjOum6ZqWsYOm9xwGQVs_EkV9-tRy9G35Qojh9aeB_Q&s"
                     />
                     <p className="text-lg md:text-xl leading-7 text-coolGray-500 font-medium">
-                      Unpacking the Latest in Technology and Innovation
+                      Rate
                     </p>
                   </li>
                   <li className="mb-6 flex items-center">
@@ -56,8 +56,7 @@ const Homepage = () => {
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDjOum6ZqWsYOm9xwGQVs_EkV9-tRy9G35Qojh9aeB_Q&s"
                     />
                     <p className="text-lg md:text-xl leading-7 text-coolGray-500 font-medium">
-                      Perfect for a blog focused on cutting-edge technology and
-                      trends
+                      Review
                     </p>
                   </li>
                   <li className="flex items-center">
@@ -66,18 +65,10 @@ const Homepage = () => {
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDjOum6ZqWsYOm9xwGQVs_EkV9-tRy9G35Qojh9aeB_Q&s"
                     />
                     <p className="text-lg md:text-xl leading-7 text-coolGray-500 font-medium">
-                      Great if your blog is about sharing innovative and
-                      accessible recipes.
+                      Post
                     </p>
                   </li>
                 </ul>
-                <Link
-                  to="https://www.udemy.com/course/mern-stack-blogify-project-based-course/?couponCode=08309CBBC4E983226762"
-                  className="mb-4 mt-9 p-4 inline-block py-3 px-7 w-full leading-6 text-green-50 font-medium text-center bg-gradient-to-r from-green-400 to-blue-600 hover:from-green-500 hover:to-green-700 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-lg transform transition-all duration-500 ease-in-out hover:scale-105 flex items-center justify-center animate-pulse"
-                >
-                  <FaBookOpen className="mr-2" />
-                  Enroll Now
-                </Link>
               </div>
               {/* Register Form */}
               <Register />

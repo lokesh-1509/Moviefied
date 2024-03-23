@@ -56,15 +56,14 @@ const Register = () => {
     <form onSubmit={handleSubmit} className="w-full pl-2 lg:w-1/2">
       <div className="flex flex-col items-center p-10 xl:px-24 xl:pb-12 bg-white lg:max-w-xl lg:ml-auto rounded-4xl shadow-2xl">
         <h2 className="mb-4 text-2xl md:text-3xl text-coolGray-900 font-bold text-center">
-          Join our community
+          
         </h2>
         {/* Display error */}
         {error && <ErrorMsg message={error?.message} />}
         {/* success message */}
         {isRegistered && <SuccesMsg message="Register Success" />}
         <h3 className="mb-7 text-base md:text-lg text-coolGray-500 font-medium text-center">
-          Discover a world of like-minded individuals who share your interests,
-          passions, and goals
+          Discover a world of individuals who share their interests and opinions
         </h3>
         <label className="mb-4 flex flex-col w-full">
           <span className="mb-1 text-coolGray-800 font-medium">Username</span>
